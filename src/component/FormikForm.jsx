@@ -82,7 +82,7 @@ export default function FormikForm() {
           onChange={handleChange}
           onBlur={handleBlur}
         />
-        <button className="w-full bg-black text-white py-1 rounded-2xl text-xl">
+        <button className="w-full bg-black text-white py-1 rounded-2xl text-xl hover:bg-white hover:text-black ">
           submit
         </button>
       </form>
