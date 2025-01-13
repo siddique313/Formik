@@ -10,7 +10,7 @@ export default function FormikForm() {
   };
   const { values, errors, handleBlur, handleChange, handleSubmit, touched } =
     useFormik({
-      initialValues: initialValues,
+      initialValues,
       validationSchema: SignUpSchema,
       onSubmit: (value) => {
         console.log(value);
