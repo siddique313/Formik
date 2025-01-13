@@ -20,7 +20,7 @@ export default function FormikForm() {
     <div className="flex flex-col items-center justify-center">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col justify-center items-start gap-3 shadow-2xl w-96 px-8 py-7 "
+        className="flex flex-col justify-center items-start border-4 border-slate-500 rounded-xl gap-3 shadow-2xl w-96 px-8 py-7 "
       >
         <div className="w-full flex flex-col items-start">
           <label className="mb-2" htmlFor="name">
